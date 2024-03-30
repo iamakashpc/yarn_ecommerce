@@ -70,4 +70,9 @@
     font-size: 14px;
     background: red;
     color: #fff;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: #515151;
 }
