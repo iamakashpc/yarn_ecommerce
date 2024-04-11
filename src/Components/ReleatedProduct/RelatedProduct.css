@@ -84,6 +84,11 @@
 }
 @media (max-width: 500px) {
 
+	.related-product{
+		height: 100vh;
+		margin-bottom: 80px;
+	}
+
 	.related-products-items {
 		display:grid;
 		grid-template-columns: 1fr 1fr;
