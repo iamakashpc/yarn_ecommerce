@@ -2,9 +2,6 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Shop from "./Pages/Shop";
-
-import Cart from "./Pages/Cart";
-
 import Footer from "./Components/Footer/Footer";
 import banner_mens from "./Components/Assets/banner_mens.png";
 import banner_women from "./Components/Assets/banner_women.png";
@@ -12,6 +9,7 @@ import banner_kids from "./Components/Assets/banner_kids.png";
 import ShopCategory from "./Pages/ShopCategory/ShopCategory";
 import LoginSignup from "./Pages/LoginSignup/LoginSignup";
 import Product from "./Pages/Product/Product";
+import Cart from "./Pages/Cart/Cart";
 
 const App = () => {
 	return (

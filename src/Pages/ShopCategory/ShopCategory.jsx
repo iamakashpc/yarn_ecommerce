@@ -1,11 +1,11 @@
-import React, { useContext } from 'react'
-import "./ShopCategory.css"
-import { ShopContext } from '../../Context/ShopContext'
-import drop_down from "../../Components/Assets/dropdown_icon.png"
-import Items from '../../Components/Item/Items'
+import React, { useContext } from "react";
+import "./ShopCategory.css";
+import { ShopContext } from "../../Context/ShopContext";
+import drop_down from "../../Components/Assets/dropdown_icon.png";
+import Items from "../../Components/Item/Items";
 const ShopCategory = (props) => {
-  const { all_Products } = useContext(ShopContext);
-  return (
+	const { all_Products } = useContext(ShopContext);
+	return (
 		<div>
 			<img src={props.banner} alt="" className="shopCategory-banner" />
 			<div className="shopCategory-indexSort">
@@ -34,11 +34,9 @@ const ShopCategory = (props) => {
 					}
 				})}
 			</div>
-			<div className="shopCategory-loadMore">
-        Explore More
-      </div>
+			<div className="shopCategory-loadMore">Explore More</div>
 		</div>
 	);
-}
+};
 
-export default ShopCategory
+export default ShopCategory;
