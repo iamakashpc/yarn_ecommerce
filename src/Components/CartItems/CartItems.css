@@ -307,9 +307,12 @@
 	.cart-items hr {
 		height: 2px;
 	}
+    .cart-items-product-image {
+		height: 50px;
+	}
 	.cart-items-main {
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-		gap: 15px;
+		gap: 5px;
 	}
 	.cart-items-format p{
 		font-size: 10px;
